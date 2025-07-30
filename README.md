@@ -2,6 +2,12 @@
 
 **DataWhiz** is a Python-based application designed to retrieve information related to Pakistani mobile numbers and CNICs (Computerized National Identity Cards). It was developed in response to community requests for a tool focused on this region. The application offers both a Command Line Interface (CLI) and a Graphical User Interface (GUI), serving as an OSINT (Open Source Intelligence) utility for research and verification purposes.
 
+## Demo (POC)
+
+<video src="https://github.com/user-attachments/assets/eba49e0f-ddf1-4f35-a39d-9e9091f2aebb" controls width="100%"></video>
+
+> **Note:** This is a short proof-of-concept demonstrating both the CLI and GUI modes of DataWhiz.
+
 ## **Features**
 
 * **Dual Interface**: Provides both an interactive Command Line Interface (CLI) and a user-friendly Graphical User Interface (GUI).
