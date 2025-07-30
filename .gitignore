@@ -1,0 +1,31 @@
+# Byte-compiled / cache files
+__pycache__/
+*.py[cod]
+*.so
+
+# Virtual environment
+venv/
+env/
+.venv/
+
+# VS Code & JetBrains IDEs
+.vscode/
+.idea/
+
+# PyInstaller output
+dist/
+build/
+*.spec
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Sensitive files
+.env
+*.key
+*.pem
+*.crt
+
+# Logs
+*.log
