@@ -1,5 +1,6 @@
 # DataWhiz Binary Integrity & VirusTotal Reports
 
+
 This document provides integrity verification information and security scan results for the precompiled binaries of **DataWhiz**.
 
 ## Files Included
@@ -7,7 +8,7 @@ This document provides integrity verification information and security scan resu
 * `DataWhiz_GUI`
 * `DataWhiz_CLI`
 
-## MD5 Hashes
+## MD5 Hashes (v1.0.0)
 
 You can verify the integrity of the downloaded binaries using the following hashes:
 
@@ -18,7 +19,7 @@ You can verify the integrity of the downloaded binaries using the following hash
 
 > Run `md5sum <filename>` on Linux to verify.
 
-## VirusTotal Scan Results
+## VirusTotal Scan Results (v1.0.0)
 
 All binaries have been scanned using [VirusTotal](https://www.virustotal.com/) and are confirmed clean at the time of release.
 
