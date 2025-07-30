@@ -1,0 +1,7 @@
+requests 
+beautifulsoup4 
+fake_useragent 
+customtkinter 
+Pillow 
+colorama
+prompt_toolkit
