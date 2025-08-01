@@ -18,14 +18,20 @@
 
 ## **Prerequisites**
 
-* **Python 3.x**
-* **requests** (For making internal data requests)
-* **beautifulsoup4** (For data parsing)
-* **fake_useragent** (For generating random user agents)
-* **customtkinter** (For GUI development - only for the GUI version)
-* **Pillow** (Image processing library, dependency of customtkinter - only for the GUI version)
-* **colorama** (For colored terminal output)
-* **prompt_toolkit** (For interactive command-line input - only for the CLI version)
+> **For Precompiled Binaries:**
+
+* Linux system with **GLIBC 2.38 or higher**. For issues related to missing GLIBC versions, see the [GLIBC Compatibility Guide](./GLIBC.md).
+
+> **For Running from Source:**
+
+* Python 3.x (3.10+ recommended)
+* `requests` (For making internal data requests)
+* `beautifulsoup4` (For data parsing)
+* `fake_useragent` (For generating random user agents)
+* `customtkinter` (GUI only)
+* `Pillow` (Dependency of customtkinter, GUI only)
+* `colorama` (Colored terminal output)
+* `prompt_toolkit` (CLI only)
 
 ## **Installation**
 
