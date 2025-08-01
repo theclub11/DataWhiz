@@ -74,4 +74,6 @@ Once your system has been updated, re-run the following command to confirm that 
 ldd --version
 ```
 
-If the version is **2.38 or higher**, the precompiled binary should run without any issues.
+- If the version is **2.38 or higher**, the precompiled binary **should run without any issues**.
+- If it's **still below 2.38**, you’ll need to **upgrade your entire OS to a newer release**.
+
