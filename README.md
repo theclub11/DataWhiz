@@ -229,11 +229,11 @@ This tool was developed in response to frequent requests from OSINT researchers 
 
 Interested in support for other regions? Feel free to reach out on X (formerly Twitter): [@AnonKryptiQuz](https://x.com/AnonKryptiQuz).
 
-Found a bug or want to suggest a feature? [Open an issue](https://github.com/AnonKryptiQuz/DataWhiz/issues)
+Report an issue or want to suggest a feature? [Open an issue](https://github.com/AnonKryptiQuz/DataWhiz/issues)
 
 ## Binary Integrity & Scan Reports
 
-Precompiled binaries are scanned and verified clean.  
+Precompiled binaries are scanned and verified to be clean.  
 You can view the full MD5 hashes and VirusTotal reports in [RELEASE.md](./RELEASE.md).
 
 > Always verify the hash before running any binaries for your security.
