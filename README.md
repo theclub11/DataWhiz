@@ -1,5 +1,24 @@
 # **DataWhiz: Pakistan Mobile/CNIC OSINT Tool**
 
+<p align="center">
+
+  <img src="https://img.shields.io/github/v/release/AnonKryptiQuz/DataWhiz?style=flat-square"/>
+  <img src="https://img.shields.io/badge/code--quality-clean-brightgreen?style=flat-square"/>
+  <img src="https://img.shields.io/badge/security-scanned-brightgreen?style=flat-square"/>
+  <img src="https://img.shields.io/badge/lint-passed-brightgreen?style=flat-square"/>
+  <img src="https://img.shields.io/badge/status-active-brightgreen?style=flat-square"/>
+  <img src="https://img.shields.io/badge/python-3.10+-blue.svg?style=flat-square"/>
+  <img src="https://img.shields.io/badge/platform-linux--x64-lightgrey?style=flat-square"/>
+  <img src="https://img.shields.io/badge/GLIBC-2.38+-blue?style=flat-square"/>
+  <img src="https://img.shields.io/badge/interface-GUI%20%2F%20CLI-blue?style=flat-square"/>
+  <img src="https://img.shields.io/badge/type-OSINT-informational?style=flat-square"/>
+  <img src="https://img.shields.io/badge/usage-research%20%7C%20verification-yellow?style=flat-square"/>
+  <img src="https://img.shields.io/badge/API%20Access-Protected-red?style=flat-square"/>
+
+<p align="center">
+  <img alt="Banner" src="https://github.com/user-attachments/assets/31845f15-51a6-4684-a125-259bb979f3c2" width="100%" style="max-width: 900px;" />
+</p>
+
 **DataWhiz** is a Python-based application designed to retrieve information related to Pakistani mobile numbers and CNICs (Computerized National Identity Cards). It was developed in response to community requests for a tool focused on this region. The application offers both a Command Line Interface (CLI) and a Graphical User Interface (GUI), serving as an OSINT (Open Source Intelligence) utility for research and verification purposes.
 
 ## Table of Contents
