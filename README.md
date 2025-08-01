@@ -220,6 +220,8 @@ DataWhiz provides two modes of operation: a Command Line Interface (CLI) and a G
 
 ### **GUI Usage**
 
+Ensure `python3-tk` and `libxcb1` are installed [see GUI Prerequisites](#gui-prerequisites).
+
 1. **Run the GUI version (source code):**
 
    ```bash
