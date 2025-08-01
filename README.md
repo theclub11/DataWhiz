@@ -21,6 +21,7 @@
 > **For Precompiled Binaries:**
 
 * Linux system with **GLIBC 2.38 or higher**. For issues related to missing GLIBC versions, see the [GLIBC Compatibility Guide](./GLIBC.md).
+* For **GUI version only**, ensure that `python3-tk` and `libxcb1` are installed [see GUI Prerequisites](#gui-prerequisites).
 
 > **For Running from Source:**
 
@@ -32,12 +33,15 @@
 * `Pillow` (Dependency of customtkinter, GUI only)
 * `colorama` (Colored terminal output)
 * `prompt_toolkit` (CLI only)
+* `python3-tk`(GUI only)
+* `libxcb1` (GUI only)
 
 ## **Installation**
 
 ### Option 1: Use Precompiled Binaries (No Setup Required)
 
-Download the latest precompiled executables for CLI and GUI from the [Releases](https://github.com/AnonKryptiQuz/DataWhiz/releases) page.
+Download the latest precompiled executables for CLI and GUI from the [Releases](https://github.com/AnonKryptiQuz/DataWhiz/releases) page. For the GUI version, ensure that `python3-tk` and `libxcb1` are installed [see GUI Prerequisites](#gui-prerequisites).
+
 
 > **Note:** The API endpoint is embedded in the precompiled binaries, so you don’t need to manually set it. This bypasses the API restrictions present in the source code version.
 
@@ -67,6 +71,44 @@ Download the latest precompiled executables for CLI and GUI from the [Releases](
    colorama
    prompt_toolkit
    ```
+
+### GUI Prerequisites
+   
+1. **Install Required System Packages (GUI Only)**
+
+   If you plan to use the **GUI version**, install the required system-level dependencies:
+
+   #### **Debian / Ubuntu / Kali / Linux Mint**
+
+   ```bash
+   sudo apt install -y python3-tk libxcb1
+   ```
+
+   #### **Arch / Manjaro**
+
+   ```bash
+   sudo pacman -S tk libxcb
+   ```
+
+   #### **Fedora**
+
+   ```bash
+   sudo dnf install -y python3-tkinter libxcb
+   ```
+
+   #### **openSUSE**
+
+   ```bash
+   sudo zypper install -y python3-tk libxcb1
+   ```
+
+   #### **Pop!\_OS**
+
+   ```bash
+   sudo apt install -y python3-tk libxcb1
+   ```
+
+> These packages are required for graphical display support. Without them, the GUI binary or source version may fail to launch with errors related to `tkinter` or `libxcb`.
 
 ## **⚠️ API Access Notice**
 
