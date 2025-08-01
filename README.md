@@ -2,6 +2,20 @@
 
 **DataWhiz** is a Python-based application designed to retrieve information related to Pakistani mobile numbers and CNICs (Computerized National Identity Cards). It was developed in response to community requests for a tool focused on this region. The application offers both a Command Line Interface (CLI) and a Graphical User Interface (GUI), serving as an OSINT (Open Source Intelligence) utility for research and verification purposes.
 
+## Table of Contents
+- [Demo (POC)](#demo-poc)
+- [Features](#features)
+- [Prerequisites](#prerequisites)
+- [Installation](#installation)
+- [Usage](#usage)
+- [API Access Notice](#️-api-access-notice)
+- [Build Your Own Binary](#build-your-own-precompiled-binary)
+- [Community Notice](#community-notice)
+- [Binary Integrity](#binary-integrity--scan-reports)
+- [Disclaimer](#disclaimer)
+- [Credits](#credits)
+- [Author](#author)
+
 ## Demo (POC)
 
 <video src="https://github.com/user-attachments/assets/eba49e0f-ddf1-4f35-a39d-9e9091f2aebb" controls width="100%"></video>
@@ -21,7 +35,6 @@
 > **For Precompiled Binaries:**
 
 * Linux system with **GLIBC 2.38 or higher**. For issues related to missing GLIBC versions, see the [GLIBC Compatibility Guide](./GLIBC.md).
-* For **GUI version only**, ensure that `python3-tk` and `libxcb1` are installed [see GUI Prerequisites](#gui-prerequisites).
 
 > **For Running from Source:**
 
@@ -33,15 +46,14 @@
 * `Pillow` (Dependency of customtkinter, GUI only)
 * `colorama` (Colored terminal output)
 * `prompt_toolkit` (CLI only)
-* `python3-tk`(GUI only)
-* `libxcb1` (GUI only)
+
+For **GUI version only** (Source and Binary), ensure `python3-tk` and `libxcb1` are installed [see GUI Prerequisites](#gui-prerequisites).
 
 ## **Installation**
 
 ### Option 1: Use Precompiled Binaries (No Setup Required)
 
-Download the latest precompiled executables for CLI and GUI from the [Releases](https://github.com/AnonKryptiQuz/DataWhiz/releases) page. For the GUI version, ensure that `python3-tk` and `libxcb1` are installed [see GUI Prerequisites](#gui-prerequisites).
-
+Download the latest precompiled executables for CLI and GUI from the [Releases](https://github.com/AnonKryptiQuz/DataWhiz/releases) page.
 
 > **Note:** The API endpoint is embedded in the precompiled binaries, so you don’t need to manually set it. This bypasses the API restrictions present in the source code version.
 
@@ -72,11 +84,25 @@ Download the latest precompiled executables for CLI and GUI from the [Releases](
    prompt_toolkit
    ```
 
+### CLI Prerequisites
+
+1. **For Precompiled CLI Binary**
+   No additional setup is required. The CLI binary is fully standalone and includes all necessary dependencies, including Python.
+
+2. **For Running CLI from Source**
+   Ensure Python packages are installed. You can install them via:
+
+   ```bash
+   pip install -r requirements.txt
+   ```
+
+> These packages are required for CLI interaction, input handling, and colorized output.
+
 ### GUI Prerequisites
    
 1. **Install Required System Packages (GUI Only)**
 
-   If you plan to use the **GUI version**, install the required system-level dependencies:
+   If you plan to use the **GUI version** (Source or Binary), install the required system-level dependencies:
 
    #### **Debian / Ubuntu / Kali / Linux Mint**
 
@@ -189,7 +215,7 @@ DataWhiz provides two modes of operation: a Command Line Interface (CLI) and a G
 
 2. **Follow the on-screen instructions:**
 
-   * A launch animation will appear in your terminal before the GUI window opens.
+   * You'll briefly see a launch animation in your terminal before the GUI window opens.
    * On the initial screen, select either "Mobile Number Lookup" or "CNIC Lookup".
    * Enter the mobile number or CNIC into the input field.
    * Click the "Search" button to retrieve information.
@@ -202,6 +228,8 @@ DataWhiz provides two modes of operation: a Command Line Interface (CLI) and a G
 This tool was developed in response to frequent requests from OSINT researchers and cybersecurity professionals seeking mobile and identity data access within the South Asian region.
 
 Interested in support for other regions? Feel free to reach out on X (formerly Twitter): [@AnonKryptiQuz](https://x.com/AnonKryptiQuz).
+
+Found a bug or want to suggest a feature? [Open an issue](https://github.com/AnonKryptiQuz/DataWhiz/issues)
 
 ## Binary Integrity & Scan Reports
 
