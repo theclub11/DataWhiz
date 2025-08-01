@@ -244,13 +244,15 @@ Ensure `python3-tk` and `libxcb1` are installed [see GUI Prerequisites](#gui-pre
    * Use the "Clear" button to clear the input and output fields.
    * You can go back to the mode selection screen using the "Back" button.
 
-## **Community Notice**
+### Community Notice
 
 This tool was developed in response to frequent requests from OSINT researchers and cybersecurity professionals seeking mobile and identity data access within the South Asian region.
 
 Interested in support for other regions? Feel free to reach out on X (formerly Twitter): [@AnonKryptiQuz](https://x.com/AnonKryptiQuz).
 
 Report an issue or want to suggest a feature? [Open an issue](https://github.com/AnonKryptiQuz/DataWhiz/issues)
+
+If you would like to submit a pull request or contribute to this project, please make sure to follow the guidelines outlined in [CONTRIBUTING.md](./CONTRIBUTING.md). Adhering to these rules will help ensure smooth and efficient collaboration.
 
 ## Binary Integrity & Scan Reports
 
