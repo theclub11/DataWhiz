@@ -164,9 +164,9 @@ Download the latest precompiled executables for CLI and GUI from the [Releases](
 _cr_u = API_ENDPOINT = "REDACTED_FOR_PUBLIC_RELEASE_CONTACT_X_@AnonKryptiQuz"
 ```
 
-> In order for the tool to function correctly when running the source code version, you must **manually replace the `_cr_u` variable above with the actual API URL**.
-> To obtain it, please contact [@AnonKryptiQuz](https://x.com/AnonKryptiQuz).
-> Alternatively, you may [download the precompiled PyInstaller binary](https://github.com/AnonKryptiQuz/DataWhiz/releases), which includes the API and bypasses this restriction.
+> * In order for the tool to function correctly when running the source code version, you must **manually replace the `_cr_u` variable above with the actual API URL**.
+> * To obtain the API, please contact [@AnonKryptiQuz](https://x.com/AnonKryptiQuz). **The API will be provided free of cost**
+> * Alternatively, you may [download the precompiled PyInstaller binary](https://github.com/AnonKryptiQuz/DataWhiz/releases), which includes the API and bypasses this restriction.
 
 ## **Build Your Own Precompiled Binary**
 
